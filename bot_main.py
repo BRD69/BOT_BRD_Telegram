@@ -14,9 +14,6 @@ load_dotenv()
 TOKEN = os.getenv('TOKEN')
 TOKEN_TEST = os.getenv('TOKEN_TEST')
 
-# TOKEN = '7483399504:AAEduiwd0qwuLafa-iyczXaK-AGlg5B0RE8'
-# TOKEN_TEST = '7214000002:AAFt1hoM90lzM_CDJxGW_26Q-BGoLTf1uec'
-
 bot = telebot.TeleBot(TOKEN)
 
 bot.set_my_commands(
